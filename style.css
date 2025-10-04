@@ -1,0 +1,144 @@
+/* ===== Estilos Generales ===== */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* ===== Header ===== */
+header {
+    background-color: #003366;
+    color: white;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+header img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.header-info {
+    flex: 1;
+}
+
+.header-info h1 {
+    font-size: 24px;
+    margin: 0 0 10px 0;
+}
+
+.header-info h2 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.header-info p, .header-info a {
+    font-size: 14px;
+    color: #f0f0f0;
+    margin: 2px 0;
+}
+
+.header-info a:hover {
+    text-decoration: underline;
+}
+
+/* ===== Navegación ===== */
+nav {
+    background-color: #e0e0e0;
+    padding: 10px 20px;
+}
+
+nav h2 {
+    margin-top: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    margin: 8px 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #003366;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Lista horizontal para el índice */
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 0;
+    margin: 10px 0;
+    list-style-type: none;
+    justify-content: center; /* Centrado opcional */
+}
+
+nav li {
+    margin: 0;
+}
+
+/* ===== Secciones ===== */
+section {
+    padding: 20px;
+    background-color: white;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 5px #ccc;
+}
+
+section h2, section h3 {
+    color: #003366;
+}
+
+/* ===== Tablas ===== */
+table {
+    width: 400px; /* o el ancho que prefieras */
+    font-size: 14px;
+}
+
+table th {
+    background-color: #003366;
+    color: white;
+}
+
+table td, #table th {
+    padding: 6px 10px;
+}
+
+/* ===== Formulario ===== */
+form input {
+    padding: 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+form button {
+    background-color: #003366;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #002244;
+}
+
