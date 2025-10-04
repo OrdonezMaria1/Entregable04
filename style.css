@@ -142,3 +142,16 @@ form button:hover {
     background-color: #002244;
 }
 
+form td {
+    padding: 10px;
+    vertical-align: top;
+}
+
+form label {
+    font-weight: bold;
+}
+
+.error {
+    color: red;
+    font-size: 12px;
+}
